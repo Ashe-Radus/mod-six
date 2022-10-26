@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's the weather?</title>
+    <link rel="stylesheet" href="./assets/style.css"/>
+</head>
+<body>
+    <header class="">
+        <h1>What's the weather?</h1>
+    </header>
+    <main>
+        <section>
+
+            <form>
+                <div class="form-row">
+                  <div class="col-7">
+                    <!-- this is the box to enter the city-->
+                    <input id = "city" type="text" class="form-control" placeholder="City">
+                    <div class="col-auto">
+                        <!--this is the submit button-->
+                        <button id = "submit" type="submit" class="btn btn-primary mb-2">Submit</button>
+                      </div>
+
+                  </div>
+                </div>
+              </form>
+        </section>
+    </main>
+    <!-- this is the section for the information to be put on the screen. -->
+    <section>
+        <div class="container">
+            <h2><span id="weather"></span>This is the forcast.</h2>
+        </div>
+    </section>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
